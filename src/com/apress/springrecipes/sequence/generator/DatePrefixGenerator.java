@@ -1,4 +1,4 @@
-package com.apress.springrecipes.sequence;
+package com.apress.springrecipes.sequence.generator;
 
 import java.text.DateFormat;
 import java.text.SimpleDateFormat;

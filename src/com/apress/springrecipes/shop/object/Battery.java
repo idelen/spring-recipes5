@@ -1,4 +1,4 @@
-package com.apress.springrecipes.shop;
+package com.apress.springrecipes.shop.object;
 
 public class Battery extends Product {
 

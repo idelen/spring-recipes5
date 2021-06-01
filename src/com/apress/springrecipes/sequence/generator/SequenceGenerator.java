@@ -1,12 +1,12 @@
-package com.apress.springrecipes.sequence;
+package com.apress.springrecipes.sequence.generator;
 
 import org.springframework.beans.factory.annotation.Autowired;
 
-import java.util.Map;
 import java.util.concurrent.atomic.AtomicInteger;
 
 public class SequenceGenerator {
 
+	@Autowired
 	private PrefixGenerator prefixGenerator;
 
 	private String prefix;
@@ -15,8 +15,16 @@ public class SequenceGenerator {
 	private final AtomicInteger counter = new AtomicInteger();
 
 	public SequenceGenerator() {
+
 	}
 
+	public SequenceGenerator(PrefixGenerator prefixGenerators, String suffix, int initial) {
+		this.prefixGenerator = prefixGenerators;
+		this.suffix = suffix;
+		this.initial = initial;
+	}
+
+	@Autowired
 	public void setPrefixGenerator(PrefixGenerator prefixGenerator) {
 		this.prefixGenerator = prefixGenerator;
 	}

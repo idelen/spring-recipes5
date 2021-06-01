@@ -11,6 +11,7 @@ public class SequenceService {
 	@Autowired
 	private SequenceDao sequenceDao;
 
+	@Autowired
 	public void setSequenceDao(SequenceDao sequenceDao) {
 		this.sequenceDao = sequenceDao;
 	}
