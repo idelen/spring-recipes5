@@ -3,6 +3,11 @@ import com.apress.springrecipes.shop.config.ShopConfiguration;
 import com.apress.springrecipes.shop.object.ShoppingCart;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
+import org.springframework.core.io.ClassPathResource;
+import org.springframework.core.io.Resource;
+import org.springframework.core.io.support.PropertiesLoaderUtils;
+
+import java.util.Properties;
 
 public class Main {
 
@@ -50,5 +55,12 @@ public class Main {
 		ShoppingCart cart2 = context.getBean("shoppingCart", ShoppingCart.class);
 		cart2.addItem(dvdrw);
 		System.out.println("Shopping cart 2 contains " + cart2.getItems());
+
+		// add recipe 2.6.2
+		Resource resource = new ClassPathResource("discounts.properties");
+		Properties props = PropertiesLoaderUtils.loadProperties(resource);
+
+		System.out.println("And don't forget our discounts");
+		System.out.println(props);
 	}
 }

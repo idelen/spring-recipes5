@@ -1,5 +1,6 @@
 package com.apress.springrecipes.shop.config;
 
+import com.apress.springrecipes.shop.object.BannerLoader;
 import com.apress.springrecipes.shop.object.Battery;
 import com.apress.springrecipes.shop.object.Disc;
 import com.apress.springrecipes.shop.object.Product;
@@ -9,6 +10,7 @@ import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.PropertySource;
 import org.springframework.context.support.PropertySourcesPlaceholderConfigurer;
+import org.springframework.core.io.Resource;
 
 @Configuration
 @PropertySource("classpath:discounts.properties")
@@ -17,6 +19,9 @@ public class ShopConfiguration {
 
 	@Value("${endofyear.discount:0}")
 	private double specialEndofyearDiscountField;
+
+	@Value("classpath:banner.txt")
+	private Resource banner;
 
 	@Bean
 	public Product aaa() {
@@ -42,6 +47,13 @@ public class ShopConfiguration {
 	@Bean
 	public static PropertySourcesPlaceholderConfigurer propertySourcesPlaceholderConfigurer() {
 		return new PropertySourcesPlaceholderConfigurer();
+	}
+
+	@Bean
+	public BannerLoader bannerLoader() {
+		BannerLoader bl = new BannerLoader();
+		bl.setBanner(banner);
+		return bl;
 	}
 
 
