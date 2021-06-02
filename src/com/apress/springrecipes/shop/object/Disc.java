@@ -12,6 +12,10 @@ public class Disc extends Product {
 		super(name, price);
 	}
 
+	public Disc(String name, double price, double discount) {
+		super(name, price, discount);
+	}
+
 	public int getCapacity() {
 		return capacity;
 	}

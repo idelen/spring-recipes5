@@ -3,13 +3,20 @@ package com.apress.springrecipes.shop.config;
 import com.apress.springrecipes.shop.object.Battery;
 import com.apress.springrecipes.shop.object.Disc;
 import com.apress.springrecipes.shop.object.Product;
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
+import org.springframework.context.annotation.PropertySource;
+import org.springframework.context.support.PropertySourcesPlaceholderConfigurer;
 
 @Configuration
+@PropertySource("classpath:discounts.properties")
 @ComponentScan("com.apress.springrecipes.shop.object")
 public class ShopConfiguration {
+
+	@Value("${endofyear.discount:0}")
+	private double specialEndofyearDiscountField;
 
 	@Bean
 	public Product aaa() {
@@ -27,8 +34,15 @@ public class ShopConfiguration {
 
 	@Bean
 	public Product dvdrw() {
-		Disc p2 = new Disc("DVD-RW", 3.0);
+		Disc p2 = new Disc("DVD-RW", 3.0, specialEndofyearDiscountField);
 		p2.setCapacity(700);
 		return p2;
 	}
+
+	@Bean
+	public static PropertySourcesPlaceholderConfigurer propertySourcesPlaceholderConfigurer() {
+		return new PropertySourcesPlaceholderConfigurer();
+	}
+
+
 }

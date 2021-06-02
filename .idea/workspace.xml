@@ -2,21 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="03170ab3-ddf4-427c-8b0e-345858f49faa" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/spring-recipe/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/spring-recipe/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/spring-recipe/com/apress/springrecipes/sequence/SequenceGenerator.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/spring-recipe/com/apress/springrecipes/sequence/config/SequenceGeneratorConfiguration.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/spring-recipe/com/apress/springrecipes/sequence/config/SequenceGeneratorConfiguration.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/apress/springrecipes/sequence/DatePrefixGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/apress/springrecipes/sequence/generator/DatePrefixGenerator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/apress/springrecipes/sequence/PrefixGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/apress/springrecipes/sequence/generator/PrefixGenerator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/apress/springrecipes/sequence/SequenceGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/apress/springrecipes/sequence/generator/SequenceGenerator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/apress/springrecipes/sequence/config/SequenceConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/apress/springrecipes/sequence/config/SequenceConfiguration.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/apress/springrecipes/sequence/config/SequenceGeneratorConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/apress/springrecipes/sequence/config/SequenceGeneratorConfiguration.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/apress/springrecipes/sequence/service/SequenceService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/apress/springrecipes/sequence/service/SequenceService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/apress/springrecipes/shop/Battery.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/apress/springrecipes/shop/object/Battery.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/apress/springrecipes/shop/Disc.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/apress/springrecipes/shop/object/Disc.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/apress/springrecipes/shop/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/apress/springrecipes/shop/object/Product.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-recipe.iml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-recipe.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/apress/springrecipes/shop/config/ShopConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/apress/springrecipes/shop/config/ShopConfiguration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/apress/springrecipes/shop/object/Disc.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/apress/springrecipes/shop/object/Disc.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/apress/springrecipes/shop/object/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/apress/springrecipes/shop/object/Product.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -33,8 +24,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/apress/springrecipes/shop/object/ShoppingCart.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" column="4" lean-forward="true" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="4" />
+            <state relative-caret-position="315">
+              <caret line="21" column="1" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#277#278#0" expanded="true" />
@@ -47,10 +38,19 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/apress/springrecipes/resources/discounts.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="2" column="22" lean-forward="true" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="435">
-              <caret line="44" column="16" lean-forward="true" selection-start-line="44" selection-start-column="16" selection-end-line="44" selection-end-column="16" />
+            <state relative-caret-position="317">
+              <caret line="38" column="75" selection-start-line="38" selection-start-column="41" selection-end-line="38" selection-end-column="75" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -61,11 +61,55 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/apress/springrecipes/shop/config/ShopConfiguration.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="465">
-              <caret line="31" column="18" selection-start-line="31" selection-start-column="18" selection-end-line="31" selection-end-column="18" />
+            <state relative-caret-position="387">
+              <caret line="36" column="24" selection-start-line="36" selection-start-column="24" selection-end-line="36" selection-end-column="24" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#661#686#1" expanded="true" />
+                <element signature="e#1250#1251#0" expanded="true" />
+                <element signature="e#1306#1307#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/apress/springrecipes/shop/object/Disc.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="2" column="28" lean-forward="true" selection-start-line="2" selection-start-column="28" selection-end-line="2" selection-end-column="28" />
+              <folding>
+                <element signature="e#180#181#0" expanded="true" />
+                <element signature="e#205#206#0" expanded="true" />
+                <element signature="e#250#251#0" expanded="true" />
+                <element signature="e#275#276#0" expanded="true" />
+                <element signature="e#234#235#0" expanded="true" />
+                <element signature="e#256#257#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/apress/springrecipes/shop/object/Product.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="615">
+              <caret line="49" column="78" selection-start-line="49" selection-start-column="78" selection-end-line="49" selection-end-column="78" />
+              <folding>
+                <element signature="e#648#649#0" expanded="true" />
+                <element signature="e#670#671#0" expanded="true" />
+                <element signature="e#715#716#0" expanded="true" />
+                <element signature="e#746#747#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -80,6 +124,14 @@
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>classpath</find>
+    </findStrings>
+    <replaceStrings>
+      <replace />
+    </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -105,15 +157,18 @@
         <option value="$PROJECT_DIR$/src/com/apress/springrecipes/sequence/config/SequenceConfiguration.java" />
         <option value="$PROJECT_DIR$/src/com/apress/springrecipes/sequence/service/SequenceService.java" />
         <option value="$PROJECT_DIR$/src/com/apress/springrecipes/shop/object/ShoppingCart.java" />
+        <option value="$PROJECT_DIR$/src/com/apress/springrecipes/resources/dicounts.properties" />
         <option value="$PROJECT_DIR$/src/Main.java" />
         <option value="$PROJECT_DIR$/src/com/apress/springrecipes/shop/config/ShopConfiguration.java" />
+        <option value="$PROJECT_DIR$/src/com/apress/springrecipes/shop/object/Disc.java" />
+        <option value="$PROJECT_DIR$/src/com/apress/springrecipes/shop/object/Product.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="y" value="23" />
+    <option name="y" value="63" />
     <option name="width" value="1792" />
-    <option name="height" value="1010" />
+    <option name="height" value="1008" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -131,6 +186,32 @@
             <path>
               <item name="spring-recipe" type="b2602c69:ProjectViewProjectNode" />
               <item name="spring-recipe" type="462c0819:PsiDirectoryNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-recipe" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-recipe" type="462c0819:PsiDirectoryNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
+              <item name="production" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-recipe" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-recipe" type="462c0819:PsiDirectoryNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
+              <item name="production" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-recipe" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-recipe" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-recipe" type="462c0819:PsiDirectoryNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
+              <item name="production" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-recipe" type="462c0819:PsiDirectoryNode" />
+              <item name="META-INF" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-recipe" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-recipe" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -144,20 +225,25 @@
               <item name="spring-recipe" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="springrecipes" type="462c0819:PsiDirectoryNode" />
-              <item name="shop" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="spring-recipe" type="b2602c69:ProjectViewProjectNode" />
               <item name="spring-recipe" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="springrecipes" type="462c0819:PsiDirectoryNode" />
-              <item name="shop" type="462c0819:PsiDirectoryNode" />
-              <item name="config" type="462c0819:PsiDirectoryNode" />
+              <item name="sequence" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="spring-recipe" type="b2602c69:ProjectViewProjectNode" />
               <item name="spring-recipe" type="462c0819:PsiDirectoryNode" />
               <item name="web" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-recipe" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-recipe" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -173,6 +259,10 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.intentionPowerPack" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -214,12 +304,12 @@
       <workItem from="1621924986542" duration="3342000" />
       <workItem from="1622002353028" duration="1921000" />
       <workItem from="1622108200057" duration="27000" />
-      <workItem from="1622521996387" duration="3848000" />
+      <workItem from="1622521996387" duration="7651000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14690000" />
+    <option name="totallyTimeSpent" value="18493000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -231,10 +321,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1792" height="1010" extended-state="0" />
+    <frame x="0" y="63" width="1792" height="1008" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18628572" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18628572" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -244,13 +334,13 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3278867" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.31485355" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39978212" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32969433" />
       <window_info anchor="bottom" id="Spring" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32897604" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.34279475" />
       <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="11" weight="0.32897604" />
@@ -413,28 +503,33 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/apress/springrecipes/shop/object/Disc.java">
+    <entry file="file://$PROJECT_DIR$/out/production/spring-recipe/Main.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        <state>
           <folding>
-            <element signature="e#234#235#0" expanded="true" />
-            <element signature="e#256#257#0" expanded="true" />
+            <element signature="e#0#1297#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/apress/springrecipes/shop/object/Product.java">
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/applicationContext.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="22" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
+        <state relative-caret-position="75">
+          <caret line="5" column="8" lean-forward="true" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/apress/springrecipes/shop/object/ShoppingCart.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="4" lean-forward="true" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="4" />
+        <state relative-caret-position="315">
+          <caret line="21" column="1" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#277#278#0" expanded="true" />
@@ -445,32 +540,154 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/apress/springrecipes/shop/config/ShopConfiguration.java">
+    <entry file="file://$PROJECT_DIR$/src/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="465">
-          <caret line="31" column="18" selection-start-line="31" selection-start-column="18" selection-end-line="31" selection-end-column="18" />
+        <state relative-caret-position="317">
+          <caret line="38" column="75" selection-start-line="38" selection-start-column="41" selection-end-line="38" selection-end-column="75" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Main.java">
+    <entry file="file://$PROJECT_DIR$/src/com/apress/springrecipes/shop/config/ShopConfiguration.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="44" column="16" lean-forward="true" selection-start-line="44" selection-start-column="16" selection-end-line="44" selection-end-column="16" />
+        <state relative-caret-position="387">
+          <caret line="36" column="24" selection-start-line="36" selection-start-column="24" selection-end-line="36" selection-end-column="24" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#661#686#1" expanded="true" />
+            <element signature="e#1250#1251#0" expanded="true" />
+            <element signature="e#1306#1307#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/apress/springrecipes/shop/object/Disc.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="28" lean-forward="true" selection-start-line="2" selection-start-column="28" selection-end-line="2" selection-end-column="28" />
+          <folding>
+            <element signature="e#180#181#0" expanded="true" />
+            <element signature="e#205#206#0" expanded="true" />
+            <element signature="e#250#251#0" expanded="true" />
+            <element signature="e#275#276#0" expanded="true" />
+            <element signature="e#234#235#0" expanded="true" />
+            <element signature="e#256#257#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/apress/springrecipes/shop/object/Product.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="615">
+          <caret line="49" column="78" selection-start-line="49" selection-start-column="78" selection-end-line="49" selection-end-column="78" />
+          <folding>
+            <element signature="e#648#649#0" expanded="true" />
+            <element signature="e#670#671#0" expanded="true" />
+            <element signature="e#715#716#0" expanded="true" />
+            <element signature="e#746#747#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/apress/springrecipes/resources/discounts.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="22" lean-forward="true" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
         </state>
       </provider>
     </entry>
   </component>
   <component name="masterDetails">
     <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <last-edited>spring-recipe:war exploded</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Spring</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>spring-recipe</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
       <state key="ProjectJDKs.UI">
         <settings>
           <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Spring Data JPA-2.2.4.RELEASE</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
           <splitter-proportions>
             <option name="proportions">
               <list>
