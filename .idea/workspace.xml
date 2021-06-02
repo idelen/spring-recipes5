@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="03170ab3-ddf4-427c-8b0e-345858f49faa" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/apress/springrecipes/shop/config/ShopConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/apress/springrecipes/shop/config/ShopConfiguration.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -162,6 +163,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -208,7 +210,7 @@
       <workItem from="1622002353028" duration="1921000" />
       <workItem from="1622108200057" duration="27000" />
       <workItem from="1622521996387" duration="7651000" />
-      <workItem from="1622644717598" duration="1579000" />
+      <workItem from="1622644717598" duration="3286000" />
     </task>
     <servers />
   </component>
